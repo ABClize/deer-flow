@@ -31,6 +31,9 @@ extensions_config.json
 # IDE
 .idea/
 .vscode/
+.codex/
+AGENTS.md
+openspec/
 
 # Coverage report
 coverage.xml
