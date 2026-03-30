@@ -4,6 +4,13 @@
 
 PYTHON ?= python
 BASH ?= bash
+APT_MIRROR ?= mirrors.aliyun.com
+UV_HTTP_TIMEOUT ?= 300
+UV_INDEX_URL ?= https://pypi.tuna.tsinghua.edu.cn/simple
+
+export APT_MIRROR
+export UV_HTTP_TIMEOUT
+export UV_INDEX_URL
 
 # Detect OS for Windows compatibility
 ifeq ($(OS),Windows_NT)
